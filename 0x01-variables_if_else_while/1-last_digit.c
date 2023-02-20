@@ -6,10 +6,11 @@
 
 /* betty style doc for function main goes there */
 /**
-*main - entry point
+* main - Entry point
 *
 * Return: Always 0
 */
+
 int main(void)
 {
 	int n;
@@ -17,11 +18,15 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 0)
-		printf("%d is positive\n", n);
+	int l;
+
+	l = n % 10;
+	printf("Last digit of %d is %d ", n, l);
+	if (n > 5)
+		printf("and is greater than 5\n");
 	if (n == 0)
-		printf("%d is zero\n", n);
-	if (n < 0)
-		printf("%d is negative\n", n);
+		printf("and is 0\n");
+	else if (n < 6)
+		printf("and is less than 6 and not 0\n");
 	return (0);
 }
