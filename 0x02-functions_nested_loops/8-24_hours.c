@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
-* jack_baeur - prints every minute of the day
+* jack_bauer - prints every minute of the day
 * Return: always void
 */
 void jack_bauer(void)
