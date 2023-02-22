@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
 * _islower - checks if a char is lower case
-* @a: char to be evaluated
+* @c: char to be evaluated
 * Return: q if true, otherwise 0
 */
 int _islower(int c)
