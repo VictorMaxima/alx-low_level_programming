@@ -4,9 +4,10 @@
 * jack_baeur - prints every minute of the day
 * Return: always void
 */
-void jack_baeur(void)
+void jack_bauer(void)
 {
 	int i, j;
+
 	for (i = 0; i < 25; i++)
 	{
 		for (j = 0; j < 61; j++)
