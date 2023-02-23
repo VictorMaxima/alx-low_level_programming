@@ -5,7 +5,7 @@
 * Return: no return
 */
 
-void print_diagpnal(int n)
+void print_diagonal(int n)
 {
 	int m;
 
