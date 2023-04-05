@@ -14,10 +14,10 @@ int pop_listint(listint_t **head)
 
 	if (*head == NULL)
 		return (0);
-	currlist = *head
+	currlist = *head;
 	headnode = currlist->n;
 	hlist = currlist->next;
 	free(currlist);
 	*head = hlist;
-	return (hnode);
+	return (headnode);
 }
