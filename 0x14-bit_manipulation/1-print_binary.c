@@ -8,17 +8,14 @@
 
 void print_binary(unsigned long int n)
 {
-	int bits, bit, flag;
+	int b;
 
 	bits = sizeof(n) * 8;
 	flag = 0;
-	for (bits--; bits >= 0; bits--)
+	while (n != 0)
 	{
-		bit = n >> bits & 1;
-		if (bit == 1)
-			flag = 1;
-		if (flag)
-			_putchar(bit + 48);
-
+		b = n & 1;
+		_putchar(b + 48);
+		n >>= 1;
 	}
 }
