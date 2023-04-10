@@ -10,7 +10,6 @@ void print_binary(unsigned long int n)
 {
 	int b;
 
-	flag = 0;
 	while (n != 0)
 	{
 		b = n & 1;
