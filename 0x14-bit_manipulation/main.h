@@ -1,6 +1,6 @@
-fndef _ALX_
+#ifndef _ALX_
 #define _ALX_
-
+#include <stddef.h>
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
 int _putchar(char c);
